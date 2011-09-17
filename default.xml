@@ -97,7 +97,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="devnull-project/android_external_v8" remote="github" />
+  <project path="external/v8" name="schiznik/android_external_v8" remote="github" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/wpa_supplicant_6" name="devnull-project/android_external_wpa_supplicant_6" remote="github" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
@@ -108,7 +108,7 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="devnull-project/android_hardware_broadcom_wlan" remote="github" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="adamg-xda/oxygen_hardware_libhardware_legacy" remote="github" />
+  <project path="hardware/libhardware_legacy" name="oxygen-rom/android_hardware_libhardware_legacy" remote="github" />
   <project path="hardware/msm7k" name="schiznik/oxygen_hardware_msm7k" remote="github" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
