@@ -13,7 +13,7 @@
   </project>
   <project path="bionic" name="devnull-project/android_bionic" remote="github" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" />
-  <project path="dalvik" name="devnull-project/android_dalvik" remote="github" />
+  <project path="dalvik" name="schiznik/android_dalvik" remote="github" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/bravo" name="devnull-project/android_device_htc_bravo" remote="github" />
