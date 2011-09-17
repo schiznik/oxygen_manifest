@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="korg"
-           fetch="http://android.git.eu.kernel.org/"
+           fetch="http://aosp.schiznik.net/"
            review="review.source.android.com" />
   <default revision="gingerbread"
            remote="korg" />
