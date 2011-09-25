@@ -7,17 +7,19 @@
            remote="korg" />
 
   <remote name="github" fetch="git://github.com/" />
+  <remote name="sartorius" fetch="git://sartorius.schiznik.net/" />
 
-  <project path="build" name="oxygen-rom/android_build" remote="github">
+  <project path="build" name="schiznik/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="devnull-project/android_bionic" remote="github" />
   <project path="bootable/recovery" name="devnull-project/android_bootable_recovery" remote="github" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="schiznik/android_dalvik" remote="github" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/bravo" name="devnull-project/android_device_htc_bravo" remote="github" />
   <project path="device/htc/bravoc" name="devnull-project/android_device_htc_bravoc" remote="github" />
+  <project path="device/htc/buzz" name="schiznik/android_device_htc_buzz" remote="github" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
   <project path="device/htc/passion" name="devnull-project/android_device_htc_passion" remote="github" />
   <project path="device/sample" name="device/sample" />
@@ -97,19 +99,19 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform/external/v8" />
+  <project path="external/v8" name="schiznik/android_external_v8" remote="github" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/wpa_supplicant_6" name="devnull-project/android_external_wpa_supplicant_6" remote="github" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="oxygen-rom/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="schiznik/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="devnull-project/android_hardware_broadcom_wlan" remote="github" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="oxygen-rom/android_hardware_libhardware_legacy" remote="github" />
-  <project path="hardware/msm7k" name="oxygen-rom/android_hardware_msm7k" remote="github" />
+  <project path="hardware/msm7k" name="schiznik/android_hardware_msm7k" remote="github" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="devnull-project/android_hardware_ril" remote="github" />
@@ -127,6 +129,7 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="devnull-project/android_packages_apps_gallery3d" remote="github" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2" name="devnull-project/android_packages_apps_launcher2" remote="github" />
@@ -160,8 +163,9 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
-  <project path="vendor/oxygen" name="oxygen-rom/android_vendor_oxygen" remote="github" />
+  <project path="vendor/oxygen" name="schiznik/android_vendor_oxygen" remote="github" />
   <project path="vendor/google" name="devnull-project/android_vendor_google" remote="github" />
   <project path="vendor/htc" name="devnull-project/android_vendor_htc" remote="github" />
+  <project path="vendor/htc/buzz" name="schiznik/android_vendor_htc_buzz" remote="github" />
   <project path="vendor/samsung" name="oxygen-rom/android_vendor_samsung" remote="github" />
 </manifest>
