@@ -169,6 +169,5 @@
   <project path="vendor/oxygen" name="schiznik/android_vendor_oxygen" remote="github" />
   <project path="vendor/google" name="schiznik/android_vendor_google" remote="github" />
   <project path="vendor/htc" name="schiznik/android_vendor_htc" remote="github" />
-  <project path="vendor/htc/buzz" name="schiznik/android_vendor_htc_buzz" remote="github" />
   <project path="vendor/samsung" name="schiznik/android_vendor_samsung" remote="github" />
 </manifest>
